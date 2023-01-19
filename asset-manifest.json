@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FilipHajduk./static/css/main.082d6095.css",
+    "main.js": "/FilipHajduk./static/js/main.9f03f857.js",
+    "index.html": "/FilipHajduk./index.html",
+    "main.082d6095.css.map": "/FilipHajduk./static/css/main.082d6095.css.map",
+    "main.9f03f857.js.map": "/FilipHajduk./static/js/main.9f03f857.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.082d6095.css",
+    "static/js/main.9f03f857.js"
+  ]
+}
