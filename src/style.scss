@@ -1,0 +1,21 @@
+$tile-bg: #8d6300;
+
+@for $i from 1 through 5 {
+  .MuiRating-decimal  {
+    &:nth-child(#{$i}) {
+        animation-delay: $i * (1s / 18);
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    color: $tile-bg;
+  }
+  50% {
+    color: darken($tile-bg, 10%);
+  }
+  100% {
+    color: lighten($tile-bg, 40%);
+  }
+}
