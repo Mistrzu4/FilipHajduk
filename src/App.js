@@ -335,7 +335,7 @@ function App() {
               target="_blank"
               color="inherit"
             >
-              <Avatar src={`/icons/Linkedin.png`} />
+              <Avatar src={`icons/Linkedin.png`} />
             </Link>
             <Link
               href="https://github.com/Mistrzu4/"
@@ -343,7 +343,7 @@ function App() {
               color="inherit"
             >
               <Tooltip title="Nothing interesting here, all projects hidden.">
-                <Avatar src={`/icons/GitHub.png`} />
+                <Avatar src={`icons/GitHub.png`} />
               </Tooltip>
             </Link>
           </Stack>
