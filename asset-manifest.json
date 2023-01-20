@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FilipHajduk/static/css/main.082d6095.css",
-    "main.js": "/FilipHajduk/static/js/main.19c42abf.js",
+    "main.js": "/FilipHajduk/static/js/main.3af31417.js",
     "index.html": "/FilipHajduk/index.html",
     "main.082d6095.css.map": "/FilipHajduk/static/css/main.082d6095.css.map",
-    "main.19c42abf.js.map": "/FilipHajduk/static/js/main.19c42abf.js.map"
+    "main.3af31417.js.map": "/FilipHajduk/static/js/main.3af31417.js.map"
   },
   "entrypoints": [
     "static/css/main.082d6095.css",
-    "static/js/main.19c42abf.js"
+    "static/js/main.3af31417.js"
   ]
 }
