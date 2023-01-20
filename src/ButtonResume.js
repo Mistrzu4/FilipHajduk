@@ -16,7 +16,7 @@ const ButtonResume = (props) => {
   return (
     <Grid container>
       <ButtonCustom
-        href="/FilipHajduk/files/FilipHajduk.pdf"
+        href="files/FilipHajduk.pdf"
         target="_blank"
         sx={{
           ":hover": {

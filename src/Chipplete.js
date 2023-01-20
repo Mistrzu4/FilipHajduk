@@ -52,8 +52,7 @@ const Chipplete = (props) => {
   name = name.replaceAll("#", "_");
   name = name.replaceAll("/", "_");
 
-  let img = `/FilipHajduk/icons/${name}.png`;
-  // console.log(img);
+  let img = `icons/${name}.png`;
   return (
     <Grid container>
       <Grid item xs={6} justifyContent="right">
