@@ -18,6 +18,7 @@ import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import { ThemeProvider } from "@emotion/react";
 import Chipplete from "./Chipplete";
 import ButtonResume from "./ButtonResume";
+import getNotyfication from "./getNotyfication";
 import "./style.scss";
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
       fontFamily: "Inconsolata",
     },
   });
+
+  React.useEffect(()=>{
+    getNotyfication();
+  },[]);
 
   const [expandedd, setExpanded] = React.useState({
     lang: false,
@@ -268,6 +273,10 @@ function App() {
 
           <Grid>
             <Chipplete name="Sublime Text" rating={511111111111111} />
+          </Grid>
+
+          <Grid>
+            <Chipplete name="Postman" rating={511111111111111} />
           </Grid>
 
           <Grid>
