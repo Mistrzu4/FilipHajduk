@@ -332,6 +332,7 @@ function App() {
             <Grid><Chip className="App-chip" label={"axios"} variant="outlined" /></Grid>
             <Grid><Chip className="App-chip" label={"eslint"} variant="outlined" /></Grid>
             <Grid><Chip className="App-chip" label={"chalk"} variant="outlined" /></Grid>
+            <Grid><Chip className="App-chip" label={"nodemon"} variant="outlined" /></Grid>
           </Stack>
 
           <Grid item>
